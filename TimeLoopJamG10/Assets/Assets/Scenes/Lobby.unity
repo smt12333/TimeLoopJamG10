@@ -16041,13 +16041,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 930451165475092599, guid: a889f71a4e1f20349926b4ddc06d00a2, type: 3}
+      propertyPath: m_Pitch
+      value: 1.67
+      objectReference: {fileID: 0}
     - target: {fileID: 7605107722027488167, guid: a889f71a4e1f20349926b4ddc06d00a2, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7605107722027488184, guid: a889f71a4e1f20349926b4ddc06d00a2, type: 3}
-      propertyPath: m_Constraints
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7605107722027488187, guid: a889f71a4e1f20349926b4ddc06d00a2, type: 3}
       propertyPath: m_RootOrder

@@ -6,30 +6,36 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 3f;
 
-    private Rigidbody2D playerRb;
-    private Vector2 moveinput;
-    private Animator playerAnimator;
+    [SerializeField] private Rigidbody2D playerRb;
+    [SerializeField] private Vector2 moveinput;
+    [SerializeField] private Animator playerAnimator;
+    [SerializeField] private GameObject audio;
    
-    void Start()
-    {
-        playerRb = GetComponent<Rigidbody2D>();
-        playerAnimator = GetComponent<Animator>();
-    }
-
     
     void Update()
     {
         //el void Update se utiliza para recibir Inputs del usuario.
+        MovePlayer();
 
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-        moveinput = new Vector2(moveX, moveY).normalized;
+    }
 
-        playerAnimator.SetFloat("Horizontal", moveX);
-        playerAnimator.SetFloat("Vertical", moveY);
-        playerAnimator.SetFloat("speed", moveinput.sqrMagnitude);
+    private void MovePlayer()
+    {
 
 
+     float moveX = Input.GetAxisRaw("Horizontal");
+     float moveY = Input.GetAxisRaw("Vertical");
+     moveinput = new Vector2(moveX, moveY).normalized;
+     bool isWalking = moveinput.x >= 0.01f || moveinput.y >= 0.01f || moveinput.x <= -0.01f || moveinput.y <= -0.01f;
+        
+     audio.SetActive(isWalking);
+
+      playerAnimator.SetFloat("Horizontal", moveX);
+      playerAnimator.SetFloat("Vertical", moveY);
+      playerAnimator.SetFloat("speed", moveinput.sqrMagnitude);
+    
+
+        
     }
 
     private void FixedUpdate()
