@@ -36,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
             //player hurt
             anim.SetTrigger("Hurt");
             StartCoroutine(Invurnerability());
+            
         }
         else
         {

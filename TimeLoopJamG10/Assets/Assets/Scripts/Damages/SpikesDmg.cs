@@ -11,6 +11,12 @@ public class SpikesDmg : MonoBehaviour
         if(collision.tag =="Player")
         {
             collision.GetComponent<PlayerHealth>().TakeDamage(damage);
+            
         }
     }
+   
+
+
+
+
 }
