@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -16,6 +17,9 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private int numberofflashes;
     private SpriteRenderer spriteRend;
 
+    [Header("GetComponents")]
+    [SerializeField] private Behaviour[] components;
+    private bool invulnerable;
     private void Awake()
     {
         currentHealt = startingHealth;
@@ -41,16 +45,27 @@ public class PlayerHealth : MonoBehaviour
                 anim.SetTrigger("Die");
                 GetComponent<PlayerMovement>().enabled = false;
                 dead = true;
+                
+
+
             }
-            //Player dead
             
+            
+
         }
     }
+    public void AddHealth(float _value)
+    {
+        currentHealt = Mathf.Clamp(currentHealt + _value, 0, startingHealth);
+    }
+
+   
+
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-            TakeDamage(1);
+        if (Input.GetKeyDown(KeyCode.R))
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     private IEnumerator Invurnerability()
@@ -65,5 +80,8 @@ public class PlayerHealth : MonoBehaviour
         }
         Physics2D.IgnoreLayerCollision(10, 11, false);
     }
+
+
+
 
 }

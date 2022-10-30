@@ -172,5 +172,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-  iFramesDuration: 2
-  numberofflashes: 3
+  iFramesDuration: 1
+  numberofflashes: 1
