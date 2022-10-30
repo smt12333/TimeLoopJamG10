@@ -14,9 +14,10 @@ public class PlayerMovement : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        Time.timeScale = 1f;
     }
 
-    
+
     void Update()
     {
         //el void Update se utiliza para recibir Inputs del usuario.

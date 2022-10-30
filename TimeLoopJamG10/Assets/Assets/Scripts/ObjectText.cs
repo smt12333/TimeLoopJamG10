@@ -97,6 +97,7 @@ public class ObjectText : MonoBehaviour
         {
             isPlayerInRange = false;
             excMark.SetActive(false);
+            
         }
     }
 }

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/Future.unity
     guid: 323adf76f72cde549b78df52f65ade80
+  - enabled: 1
+    path: Assets/Assets/Scenes/AncientDungeon.unity
+    guid: 3928ce3e6bdb0d54e88fab6898ef6ba5
   m_configObjects: {}
