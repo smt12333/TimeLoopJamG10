@@ -52265,6 +52265,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 33.94
       objectReference: {fileID: 0}
+    - target: {fileID: 572370941350862027, guid: fe77960e2093d124787367a8aaceeaff, type: 3}
+      propertyPath: itemprefab
+      value: 
+      objectReference: {fileID: 7120471056668300619, guid: bfb21dbedc4c0a645a582404e8be827b, type: 3}
     - target: {fileID: 572370941846912607, guid: fe77960e2093d124787367a8aaceeaff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.15
