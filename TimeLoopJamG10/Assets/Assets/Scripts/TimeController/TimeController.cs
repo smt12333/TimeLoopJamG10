@@ -33,6 +33,10 @@ public class TimeController : MonoBehaviour
     
     void Update()
     {
+       
+        
+        
+        
         if (itson)
         {
             remaining -= Time.deltaTime;

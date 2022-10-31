@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RandomSpawner : MonoBehaviour
 {
@@ -17,7 +18,10 @@ public class RandomSpawner : MonoBehaviour
         Randomspawners();
     }
 
-    
+    private void Update()
+    {
+        
+    }
     private void Randomspawners()
     {
 

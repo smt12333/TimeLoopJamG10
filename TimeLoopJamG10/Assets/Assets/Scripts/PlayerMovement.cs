@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -29,6 +30,9 @@ public class PlayerMovement : MonoBehaviour
         playerAnimator.SetFloat("Horizontal", moveX);
         playerAnimator.SetFloat("Vertical", moveY);
         playerAnimator.SetFloat("speed", moveinput.sqrMagnitude);
+        
+           
+        
 
 
     }
@@ -41,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     
+  
 
 
 }

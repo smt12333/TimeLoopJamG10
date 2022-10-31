@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8427495708443130331}
   - component: {fileID: 3868032445798913665}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -315,7 +315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3064638995657374237}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: spike1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 3064638995773026395}
   - component: {fileID: 3064638995773026404}
   - component: {fileID: 3064638995773026405}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: spikedown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7340370985969857508}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}

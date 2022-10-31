@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float startingHealth;
     public float currentHealt { get; private set; }
     private Animator anim;
-    private bool dead;
+    public bool dead;
 
 
     [Header("iFrames")]
@@ -47,7 +47,7 @@ public class PlayerHealth : MonoBehaviour
                 GetComponent<PlayerMovement>().enabled = false;
                 dead = true;
                 
-
+              
 
             }
             
@@ -60,14 +60,18 @@ public class PlayerHealth : MonoBehaviour
         currentHealt = Mathf.Clamp(currentHealt + _value, 0, startingHealth);
     }
 
-   
 
 
-    private void Update()
+    public void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
+        {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            StopCoroutine(Invurnerability());
+            Physics2D.IgnoreLayerCollision(10, 11, false);
+        }
     }
+
 
     private IEnumerator Invurnerability()
     {
@@ -78,11 +82,13 @@ public class PlayerHealth : MonoBehaviour
             yield return new WaitForSeconds(iFramesDuration/ (numberofflashes * 2));
             spriteRend.color = Color.white;
             yield return new WaitForSeconds(iFramesDuration / (numberofflashes * 2));
+            
+
         }
         Physics2D.IgnoreLayerCollision(10, 11, false);
     }
 
 
-
+    
 
 }
