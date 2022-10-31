@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Checkpoint
   - SpawnPoint
+  - plus5sec
   layers:
   - Default
   - TransparentFX

@@ -156,8 +156,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.875, y: 0.9375}
+  m_Offset: {x: -0.0072034, y: -0.04853815}
+  m_Size: {x: 0.7049998, y: 0.8173729}
   m_Direction: 0
 --- !u!114 &7750934058930961045
 MonoBehaviour:
@@ -174,3 +174,4 @@ MonoBehaviour:
   startingHealth: 3
   iFramesDuration: 1
   numberofflashes: 1
+  components: []
