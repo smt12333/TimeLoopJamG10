@@ -38,7 +38,7 @@ public class TimeController : MonoBehaviour
             remaining -= Time.deltaTime;
             if (remaining < 1)
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene("Lobby");
 
 
             }

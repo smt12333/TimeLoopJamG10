@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Assets/Scenes/MainMenu.unity
+    guid: a216524f8be96b14cb4e6fc6a57f86a5
+  - enabled: 1
     path: Assets/Assets/Scenes/Lobby.unity
     guid: d155388175b750b45befa2d3b93ab427
   - enabled: 0
@@ -26,7 +29,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/WinDungeon.unity
     guid: f36687f4a6f1bfd459f005eb09ff1c0e
-  - enabled: 1
-    path: Assets/Assets/Scenes/MainMenu.unity
-    guid: a216524f8be96b14cb4e6fc6a57f86a5
   m_configObjects: {}
