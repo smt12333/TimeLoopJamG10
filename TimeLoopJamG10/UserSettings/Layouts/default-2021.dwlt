@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1007
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 63
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 22
+  controlID: 64
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 23
+  controlID: 65
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -353,22 +353,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets/NinjaAdventure/Actor/Characters/PERSONAJE -Knight/SeparateAnim
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets/NinjaAdventure/Actor/Characters/PERSONAJE -Knight/SeparateAnim
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\GITHUBPROYECTOS\TimeLoopJamG10\TimeLoopJamG10
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 406}
-    m_SelectedIDs: fe6e0000
-    m_LastClickedID: 28414
-    m_ExpandedIDs: 00000000e66800002e690000326900006c69000074690000766900007a69000092690000b869000086710000047400008a7b00007e7c0000707e0000b27f0000c087000050880000228a000086b80a0000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 60680000
+    m_LastClickedID: 26720
+    m_ExpandedIDs: 00000000606800007a680000b2680000b4680000b6680000b868000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -396,7 +396,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e6680000
+    m_ExpandedIDs: 0000000060680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,9 +524,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fe6e0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5ab3f6ffa6b3f6ff58b5f6ff9ab5f6ff6ec0f6ffe6d8f6ff06d9f6ff4cd9f6ff26f3f7ffa403f8ff9204f8ffdc04f8fff204f8ff3405f8ff0810f8ff8028f8ff9a28f8ffdc28f8ff902af8ffda2af8ff902cf8ffd62cf8ffae37f8ff3850f8ff6a50f8ffb050f8ff5e89f8ff008ff8ffd4d3f8ff2cf4f8ff8efbf8ff001ef9ff4a1ef9ff1e20f9ff8220f9ff782bf9ff2044f9ff5c44f9ffc244f9ff1054faff4ae0faff54e0faff48e9faff1000fbffc875fbffee75fbff6e8efbff748efbffb8a2fbff30a4fbff2aa5fbffb8b3fbffb8b4fbff8ab6fbff96b7fbff02e6fbff7e2afcff962afcffc62cfcff1e52fcffea59fcfff866fcffb6b0fcffe6b0fcff64c1fcffe4f3fcff2a7afdffc09afdff1ea5fdffb8aafdffa0befdfffec8fdffe8d6fdff9ef1fdff94f3fdff9a06feff5e07feff3c0ffeff6c37feffec40feff02defeff2459ffff3c59ffff085affffc061ffff4266ffff5466ffffec66ffff9870ffff3e7bffffe07bffff6aa2ffff64e1ffff16ebffff0cfbffffbc610000b4620000702e0400d4fd080028fe0800acfe0800a88a0a00f61f0b0022200b004a200b0074200b009a200b00da200b00f0200b0088210b00e0870b00468e0b0082d90b00
+      m_ExpandedIDs: 0cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -797,9 +797,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 427.13293, y: -40.660988, z: -7.455148}
+    m_Target: {x: 8.5677595, y: -4.203602, z: -5.091362}
     speed: 2
-    m_Value: {x: 427.13293, y: -40.660988, z: -7.455148}
+    m_Value: {x: 8.5677595, y: -4.203602, z: -5.091362}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -850,9 +850,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 280.6371
+    m_Target: 21.297758
     speed: 2
-    m_Value: 280.6371
+    m_Value: 21.297758
   m_Ortho:
     m_Target: 1
     speed: 2
