@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         Time.timeScale = 1f;
+
     }
 
 
